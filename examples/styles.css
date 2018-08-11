@@ -29,6 +29,7 @@ body {
 #pong {
 	width: 1200px;
 	height: 400px;
+	margin-left: 360px;
 }
 
 #pong.framed {
