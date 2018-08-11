@@ -27,8 +27,8 @@ body {
 }
 
 #pong {
-	width: 500px;
-	height: 80%;
+	width: 800px;
+	height: 600px;
 }
 
 #pong.framed {
