@@ -4,7 +4,7 @@ module.exports = {
 	BARS_WIDTH: 25,
 	LINES_DISTANCE: 20,
 	PLAYER_MARGIN: 10,
-	PLAYER_COLOR: '#000000'; //0xEEEEEE,
+	PLAYER_COLOR: 0x000000,
 	SCORES_MARGIN: { x: 30, y: 30 },
 	TEXT_STYLE: {
         font: '60px Helvetica, Arial, sans-serif',
