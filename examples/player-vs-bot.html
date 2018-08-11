@@ -10,6 +10,8 @@
 
 		window.onload = function () {
 			var pong = new Pong(document.getElementById('pong'));
+                        pong.setBackgroundColor('#ff0000');
+
 
 			function resize () {
 				var gameHeight = window.innerHeight - 40 + 'px';
@@ -45,6 +47,6 @@
 	<div class="panel">
 		Move with [ UP ], [ DOWN ]
 	</div>
-
+	
 </body>
 </html>
