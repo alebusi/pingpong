@@ -1,10 +1,10 @@
 
 module.exports = {
 	BG_COLOR: 0x222222,
-	BARS_WIDTH: 15,
+	BARS_WIDTH: 25,
 	LINES_DISTANCE: 20,
 	PLAYER_MARGIN: 10,
-	PLAYER_COLOR: 0xEEEEEE,
+	PLAYER_COLOR: '#000000'; //0xEEEEEE,
 	SCORES_MARGIN: { x: 30, y: 30 },
 	TEXT_STYLE: {
         font: '60px Helvetica, Arial, sans-serif',
