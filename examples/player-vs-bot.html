@@ -11,6 +11,10 @@
 		window.onload = function () {
 			var pong = new Pong(document.getElementById('pong'));
                         pong.setBackgroundColor('#ff0000');
+			pong.setBallColor('#000000'); // - Set the color of balls currently on stage and future ones
+                        //setBallImage( string ) - Set ball image asset url / relative path for all balls on stage (Recommended if 1:1 ratio assets)
+                        //setBallSize( number ) - Set the size of balls currently on stage and future ones
+                        //pong.setBallSpeed(10);
 
 
 			function resize () {
